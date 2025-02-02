@@ -1,0 +1,52 @@
+<!-- contact us and h1 tag -->
+
+<!-- call to action -->
+<section class="cta">
+    <h1>We deliver the world's best food to your doorstep<br>within 30 minutes</h1>
+
+    <!-- contact us href -->
+    <a href="#" id="cont-as">CONTACT US</a>
+</section>
+
+/* call to action */
+.cta{
+    display: inline;
+    margin: 100px auto;
+    width: 80%;
+    background-position:center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    background-image: linear-gradient(url(png.files/nasa.jpg));
+}
+
+/* contact as href */
+#cont-as{
+    display: inline;
+    background:black;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ff5a00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* contact as hovering */
+/#cont-as:hover{
+            background-color:#fff;
+            transition: all 0.4s ease 0s;
+        }
+
+
+        <!-- second box in coach box -->
+        <div id="secondary-box">
+            
+
+            <!-- p tag/center [!!!] -->
+           
+
+            <!-- secondary box div closing -->
+        </div>

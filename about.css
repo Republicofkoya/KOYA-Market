@@ -1,0 +1,278 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/* font-family: 'Abril Fatface'; */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Zeyada&display=swap');
+/* font-family: 'Zeyada'; */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Kanit'; */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Readex+Pro:wght@160..700&display=swap');
+/* font-family: 'Kanit'; */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Raleway", sans-serif; */
+
+/* background>>>>> */
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color:#fff;
+}
+
+
+
+
+/* main box>>>>>  */
+#coach-box{
+    background-color:#ff5a00;
+    width: 100%;
+    height: 1500px;
+    border-radius: 20px;
+
+    /* secondary box */
+    .secondary-box{
+        background-color:#fff;
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+    }
+}
+
+
+/* company name png/top */
+#comp-name-png{
+    padding-left: 17px;
+    padding-top: 0px;
+}
+
+
+#menu{
+    line-height: 75px;
+    padding: 0px 30px;
+}
+
+#menu #menu-ul{   
+    float:right;
+}
+
+#menu li{
+    
+    display: inline-block;
+    list-style: none;
+    font-family:"Readex Pro", sans-serif;
+}
+
+#menu li a{
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px 40px ;
+    color: white;
+    text-decoration: none;
+    border-left-style: solid;
+    border-width:5px ;
+    border-color: red;
+}
+
+#menu li a:hover{
+    color:black;
+    transition:0.5s ease-in-out;
+}
+
+
+#href-1 li a{
+    font-family: "Readex Pro", sans-serif;
+    list-style: none;
+    text-decoration:none;
+    font-size: 20px;
+    color:#ff5a00;
+}
+
+#href-1 li {
+    padding-left: 50px;
+    /* padding-bottom: 40px; */
+    padding-top: 20px;
+    padding-right: 50px;
+    display:inline-block;
+    
+}
+
+
+.disc-box-main{
+    width: 100%;
+    height: 100%px;
+    background-color:#353c4a;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#href-1{
+    padding-top: 40px;
+}
+
+#b-t-line{
+    height: 100px;
+    color: #666;
+    border-left-style: solid;
+    border-width:1px ;
+}
+
+#href-2 li a{
+    font-family: "Readex Pro", sans-serif;
+    font-weight: normal;
+    padding-top: 0px;
+    text-decoration: none;
+    font-size:15px;
+    color: #ff5a00;
+}
+
+#href-2 li {
+    
+    list-style: none;
+}
+
+
+#href-2-box {
+    padding: 0px 120px ;
+    border-right: #666;
+    display:inline-block;
+}
+
+.p3{
+    border-left-style: solid;
+    border-width:5px ;
+    border-color: red;
+}
+#href-3 li{
+    padding: 5px;
+    color: #ff5a00;
+    
+    font-family: "Zeyada", cursive;
+    font-size: 35px;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#href-3 li a{
+    font-family: "Readex Pro", sans-serif;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 10px 100px 10px 100px;
+    
+    background-color: #ff5a00;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+#href-3 li a:hover{
+    color:#ff5a00 ;
+    background-color: #fff;
+    transition: all 0.4s ease 0s;
+}
+
+
+#leaf-body{
+    background-color: #ff5a00;
+    #leaf{
+        font-size: 100px;
+        list-style: none;
+        margin: auto;
+        padding-top: 100px;
+    }
+
+}
+
+.introduction-box{
+    font-size: 20px;
+    width: 1000px;
+    height: 800px;
+    border: 10px solid#ff5a00;
+    margin: auto;
+    background-color:cornsilk;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px;
+}
+
+.secondary-box h1{
+    font-family:"Readex Pro", sans-serif;
+    text-align: center; 
+    padding: 80px 0px 0px 0px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #ff5a00;
+    text-shadow: 0 2px 17px black;
+}
+
+.introduction-box h4{
+    opacity: 2;
+    font-family: "raleway",monospace;
+    color: #ff5a00;
+    border-left-style: solid;
+    border-width:5px ;
+    border-color: red;
+    margin: 45px;
+}
+
+.introduction-box p span{
+    color:#ff5a00;
+    opacity: 2;
+    font-weight: bold;
+}
+.introduction-box p{
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "raleway",monospace;
+    line-height: 30px;
+    margin: 50px;
+    letter-spacing: 1px;
+    margin-top: 18px;
+    color: #ff5a00;
+}
+
+.introduction-box p a{
+    text-decoration: none;
+    color: #ff5a00;
+}
+
+.fa {
+    padding: 10px 10px 10px 10px;
+    size: 300px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 12px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px black;   
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+  .fa-instagram {
+    background:linear-gradient(#515BD4,#8134AF,#DD2A7B,#FEDA77,#F58529);
+    color: white;
+}
+
+footer{
+    padding-left: 35px;
+    padding-bottom: 50px;
+}
